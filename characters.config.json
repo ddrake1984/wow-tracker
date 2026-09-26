@@ -1,0 +1,105 @@
+{
+  "_help": "Edit this file to set up your roster. 'name' and 'realm' are what the Blizzard API looks up. Everything under 'manual' is a fallback shown when the API can't provide it (API data always wins when present).",
+
+  "region": "eu",
+  "locale": "en_GB",
+  "namespace": "profile-classicforever-{region}",
+  "wowheadDomain": "classic",
+
+  "characters": [
+    {
+      "name": "Warrcraft",
+      "realm": "",
+      "displayName": "Warr Craft",
+      "tagline": "Picks flowers, brews potions, calls lightning.",
+      "manual": {
+        "race": "Tauren",
+        "class": "Shaman",
+        "level": 1,
+        "professions": [
+          { "name": "Herbalism", "skill": 1, "max": 75 },
+          { "name": "Alchemy", "skill": 1, "max": 75 }
+        ],
+        "skills": [
+          { "name": "Maces", "skill": 1, "max": 5 },
+          { "name": "Staves", "skill": 1, "max": 5 },
+          { "name": "Defense", "skill": 1, "max": 5 },
+          { "name": "First Aid", "skill": 0, "max": 75 },
+          { "name": "Cooking", "skill": 0, "max": 75 },
+          { "name": "Fishing", "skill": 0, "max": 75 }
+        ]
+      }
+    },
+    {
+      "name": "Starcraft",
+      "realm": "",
+      "displayName": "Star Craft",
+      "tagline": "Shoots things, skins things, wears things.",
+      "manual": {
+        "race": "Orc",
+        "class": "Hunter",
+        "level": 1,
+        "professions": [
+          { "name": "Skinning", "skill": 1, "max": 75 },
+          { "name": "Leatherworking", "skill": 1, "max": 75 }
+        ],
+        "skills": [
+          { "name": "Bows", "skill": 1, "max": 5 },
+          { "name": "Axes", "skill": 1, "max": 5 },
+          { "name": "Defense", "skill": 1, "max": 5 },
+          { "name": "First Aid", "skill": 0, "max": 75 },
+          { "name": "Cooking", "skill": 0, "max": 75 },
+          { "name": "Fishing", "skill": 0, "max": 75 }
+        ]
+      }
+    },
+    {
+      "name": "Minecraft",
+      "realm": "",
+      "displayName": "Mine Craft",
+      "tagline": "Digs holes, builds bombs, stabs you in the back.",
+      "manual": {
+        "race": "Undead",
+        "class": "Rogue",
+        "level": 1,
+        "professions": [
+          { "name": "Mining", "skill": 1, "max": 75 },
+          { "name": "Engineering", "skill": 1, "max": 75 }
+        ],
+        "skills": [
+          { "name": "Daggers", "skill": 1, "max": 5 },
+          { "name": "Swords", "skill": 1, "max": 5 },
+          { "name": "Defense", "skill": 1, "max": 5 },
+          { "name": "Lockpicking", "skill": 0, "max": 5 },
+          { "name": "Poisons", "skill": 0, "max": 5 },
+          { "name": "First Aid", "skill": 0, "max": 75 },
+          { "name": "Cooking", "skill": 0, "max": 75 },
+          { "name": "Fishing", "skill": 0, "max": 75 }
+        ]
+      }
+    },
+    {
+      "name": "Witchcraft",
+      "realm": "",
+      "displayName": "Witch Craft",
+      "tagline": "Sews robes, enchants them, sets you on fire.",
+      "manual": {
+        "race": "Troll",
+        "class": "Mage",
+        "level": 1,
+        "professions": [
+          { "name": "Tailoring", "skill": 1, "max": 75 },
+          { "name": "Enchanting", "skill": 1, "max": 75 }
+        ],
+        "skills": [
+          { "name": "Staves", "skill": 1, "max": 5 },
+          { "name": "Wands", "skill": 0, "max": 5 },
+          { "name": "Defense", "skill": 1, "max": 5 },
+          { "name": "First Aid", "skill": 0, "max": 75 },
+          { "name": "Cooking", "skill": 0, "max": 75 },
+          { "name": "Fishing", "skill": 0, "max": 75 }
+        ]
+      }
+    }
+  ]
+}
