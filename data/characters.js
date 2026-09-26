@@ -1,8 +1,8 @@
 window.TRACKER_DATA = {
-  "generatedAt": "2026-09-26T12:34:38.776Z",
+  "generatedAt": "2026-09-26T23:03:10.232Z",
   "region": "eu",
   "namespace": "profile-classicforever-eu",
-  "apiStatus": "no-credentials",
+  "apiStatus": "ok",
   "wowheadDomain": "classic",
   "characters": [
     {
