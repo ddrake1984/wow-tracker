@@ -62,6 +62,10 @@
       'token-failed': ['warn', 'API login failed, showing last known data'],
       'sample': ['warn', 'Sample data'],
     };
+    // Logged in fine, but no character was found yet (no realm set, or WoW Forever API not live)
+    if (data.apiStatus === 'ok' && !data.characters.some((c) => c.source === 'api')) {
+      msgs.ok = ['ok', 'API connected, waiting for characters'];
+    }
     const [cls, text] = msgs[data.apiStatus] || ['warn', data.apiStatus];
     $status.innerHTML = `<span class="pill ${cls}">${esc(text)}</span> · last change ${esc(timeAgo(data.generatedAt))}`;
   }
