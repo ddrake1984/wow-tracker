@@ -1,0 +1,120 @@
+:root {
+  --bg: #0e0f13;
+  --panel: #171920;
+  --panel-2: #1f222b;
+  --line: #2c303b;
+  --text: #e7e3d8;
+  --muted: #9a978f;
+  --gold: #e8c26a;
+  --gold-dim: #8a6f35;
+  --bar-bg: #262a34;
+  --radius: 10px;
+
+  /* item quality */
+  --q-poor: #9d9d9d;
+  --q-common: #ffffff;
+  --q-uncommon: #1eff00;
+  --q-rare: #0070dd;
+  --q-epic: #a335ee;
+  --q-legendary: #ff8000;
+  --q-artifact: #e6cc80;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 500px at 50% -200px, #2a2112 0%, var(--bg) 60%) no-repeat, var(--bg);
+  color: var(--text);
+  font: 15px/1.5 Inter, system-ui, sans-serif;
+}
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+
+h1, h2, h3 { font-family: Cinzel, Georgia, serif; font-weight: 700; letter-spacing: .02em; }
+
+.site-header { padding: 32px 0 20px; text-align: center; }
+.site-header h1 { margin: 0; font-size: clamp(28px, 6vw, 44px); color: var(--gold); text-shadow: 0 2px 12px rgba(232, 194, 106, .25); }
+.site-header .sub { margin: 4px 0 0; color: var(--muted); }
+.status { margin: 12px auto 0; font-size: 13px; color: var(--muted); }
+.status .pill { display: inline-block; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); }
+.status .pill.ok { border-color: #2f5a2f; color: #8fd18f; }
+.status .pill.warn { border-color: #6a5220; color: var(--gold); }
+
+/* ---------- roster cards ---------- */
+.roster { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 8px 0 20px; }
+.card {
+  text-align: left; cursor: pointer; font: inherit; color: inherit;
+  background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--class, var(--gold));
+  border-radius: var(--radius); padding: 14px 16px; transition: transform .12s, border-color .12s, background .12s;
+}
+.card:hover { transform: translateY(-2px); background: var(--panel-2); }
+.card[aria-selected="true"] { background: var(--panel-2); border-color: var(--class); box-shadow: 0 0 0 1px var(--class) inset; }
+.card .nm { font-family: Cinzel, serif; font-size: 19px; font-weight: 700; color: var(--class); }
+.card .meta { color: var(--muted); font-size: 13px; }
+.card .lvl { float: right; font-family: Cinzel, serif; font-size: 22px; color: var(--gold); line-height: 1; }
+.card .profs { margin-top: 8px; font-size: 12px; color: var(--muted); }
+.card .xpbar { margin-top: 10px; }
+
+/* ---------- detail ---------- */
+.detail { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
+.detail-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; border-bottom: 1px solid var(--line); padding-bottom: 14px; margin-bottom: 18px; }
+.detail-head h2 { margin: 0; font-size: 28px; color: var(--class); }
+.detail-head .ingame { color: var(--muted); font-size: 13px; }
+.detail-head .line { flex-basis: 100%; color: var(--text); }
+.detail-head .tag { flex-basis: 100%; color: var(--muted); font-style: italic; font-size: 14px; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; flex-basis: 100%; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--panel-2); border: 1px solid var(--line); color: var(--muted); }
+.badge.api { color: #8fd18f; border-color: #2f5a2f; }
+.badge.manual { color: var(--gold); border-color: #6a5220; }
+
+.grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 20px; }
+.grid > div, .gear-col { min-width: 0; }
+@media (max-width: 820px) { .grid { grid-template-columns: minmax(0,1fr); } }
+
+.box h3 { margin: 0 0 10px; font-size: 16px; color: var(--gold); border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.box + .box { margin-top: 20px; }
+
+/* gear */
+.gear { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 4px 16px; }
+.gear.weapons { grid-template-columns: minmax(0,1fr); margin-top: 4px; }
+@media (max-width: 560px) { .gear { grid-template-columns: minmax(0,1fr); } }
+.gear-col { display: flex; flex-direction: column; gap: 4px; }
+.slot { display: flex; gap: 10px; align-items: baseline; padding: 6px 8px; border-radius: 6px; background: var(--panel-2); min-width: 0; }
+.slot .sl { flex: 0 0 72px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.slot .it { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.slot .it a { text-decoration: none; }
+.slot .it a:hover { text-decoration: underline; }
+.slot .ench { display: block; font-size: 11px; color: var(--q-uncommon); white-space: normal; }
+.slot .ilvl { margin-left: auto; font-size: 11px; color: var(--muted); }
+.slot.empty .it { color: #555; font-style: italic; }
+.q-poor { color: var(--q-poor); } .q-common { color: var(--q-common); } .q-uncommon { color: var(--q-uncommon); }
+.q-rare { color: var(--q-rare); } .q-epic { color: var(--q-epic); } .q-legendary { color: var(--q-legendary); }
+.q-artifact, .q-heirloom { color: var(--q-artifact); }
+
+/* bars */
+.bars { display: flex; flex-direction: column; gap: 10px; }
+.bar-row .lbl { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 3px; }
+.bar-row .lbl span:last-child { color: var(--muted); font-variant-numeric: tabular-nums; }
+.bar { height: 8px; background: var(--bar-bg); border-radius: 999px; overflow: hidden; }
+.bar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--gold-dim), var(--gold)); border-radius: inherit; }
+.bar.cls > i { background: var(--class); }
+.bar.zero > i { background: transparent; }
+
+/* talents */
+.trees { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; }
+.tree { background: var(--panel-2); border-radius: 8px; padding: 10px 6px; }
+.tree .pts { font-family: Cinzel, serif; font-size: 26px; color: var(--muted); }
+.tree.top .pts { color: var(--class); }
+.tree .tn { font-size: 12px; color: var(--muted); }
+.spec-name { margin: 0 0 10px; }
+.talent-list { margin: 10px 0 0; padding: 0; list-style: none; font-size: 12px; color: var(--muted); columns: 2; }
+.talent-list li { break-inside: avoid; }
+
+.empty-note { color: var(--muted); font-size: 13px; font-style: italic; margin: 0; }
+.errors { margin-top: 16px; font-size: 12px; color: #d88; }
+
+.site-footer { color: var(--muted); font-size: 12px; text-align: center; padding: 28px 16px 40px; }
+code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; }
+
+@media (max-width: 560px) { .detail { padding: 14px; } }
