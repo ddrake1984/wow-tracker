@@ -1,71 +1,34 @@
 {
-  "generatedAt": "2026-09-26T12:28:10.063Z",
+  "generatedAt": "2026-09-26T12:34:38.776Z",
   "region": "eu",
   "namespace": "profile-classicforever-eu",
   "apiStatus": "no-credentials",
   "wowheadDomain": "classic",
   "characters": [
     {
-      "key": "warrcraft",
-      "name": "Warrcraft",
-      "displayName": "Warr Craft",
-      "tagline": "Picks flowers, brews potions, calls lightning.",
-      "realm": "Normal",
-      "race": "Tauren",
+      "key": "crackpot",
+      "name": "Crackpot",
+      "displayName": "Crack Pot",
+      "tagline": "Picks weeds, brews dodgy potions, calls lightning.",
+      "realm": "",
+      "race": "Orc",
       "class": "Shaman",
-      "level": 27,
-      "faction": "Horde",
-      "guild": "The Crafts",
+      "level": 1,
+      "faction": null,
+      "guild": null,
       "itemLevel": null,
-      "lastLogin": 1790419926056,
-      "talents": {
-        "name": "Enhancement",
-        "trees": [
-          {
-            "name": "Elemental",
-            "points": 5,
-            "talents": [
-              {
-                "name": "Convection",
-                "rank": 5
-              }
-            ]
-          },
-          {
-            "name": "Enhancement",
-            "points": 12,
-            "talents": [
-              {
-                "name": "Ancestral Knowledge",
-                "rank": 5
-              },
-              {
-                "name": "Shield Specialization",
-                "rank": 5
-              },
-              {
-                "name": "Thundering Strikes",
-                "rank": 2
-              }
-            ]
-          },
-          {
-            "name": "Restoration",
-            "points": 0,
-            "talents": []
-          }
-        ]
-      },
+      "lastLogin": null,
+      "talents": null,
       "professions": [
         {
           "name": "Herbalism",
-          "skill": 142,
-          "max": 225
+          "skill": 1,
+          "max": 75
         },
         {
           "name": "Alchemy",
-          "skill": 130,
-          "max": 225
+          "skill": 1,
+          "max": 75
         }
       ],
       "skills": [
@@ -100,102 +63,35 @@
           "max": 75
         }
       ],
-      "equipment": [
-        {
-          "slot": "HEAD",
-          "slotName": "Head",
-          "id": 10504,
-          "name": "Green Lens",
-          "quality": "uncommon",
-          "itemLevel": 49,
-          "enchants": []
-        },
-        {
-          "slot": "CHEST",
-          "slotName": "Chest",
-          "id": 16706,
-          "name": "Wildheart Vest",
-          "quality": "rare",
-          "itemLevel": 58,
-          "enchants": [
-            "Enchanted: +3 All Stats"
-          ]
-        },
-        {
-          "slot": "MAIN_HAND",
-          "slotName": "Main Hand",
-          "id": 19019,
-          "name": "Thunderfury, Blessed Blade of the Windseeker",
-          "quality": "legendary",
-          "itemLevel": 80,
-          "enchants": []
-        }
-      ],
-      "source": "api",
-      "updatedAt": "2026-09-26T11:52:06.058Z",
+      "equipment": [],
+      "source": "manual",
+      "updatedAt": null,
       "errors": []
     },
     {
-      "key": "starcraft",
-      "name": "Minecraft",
-      "displayName": "Star Craft",
-      "tagline": "Shoots things, skins things, wears things.",
-      "realm": "Normal",
-      "race": "Tauren",
-      "class": "Rogue",
-      "level": 27,
-      "faction": "Horde",
-      "guild": "The Crafts",
+      "key": "crockpot",
+      "name": "Crockpot",
+      "displayName": "Crock Pot",
+      "tagline": "Shoots it, skins it, stews it, wears it.",
+      "realm": "",
+      "race": "Orc",
+      "class": "Hunter",
+      "level": 1,
+      "faction": null,
+      "guild": null,
       "itemLevel": null,
-      "lastLogin": 1790419926058,
-      "talents": {
-        "name": "Enhancement",
-        "trees": [
-          {
-            "name": "Elemental",
-            "points": 5,
-            "talents": [
-              {
-                "name": "Convection",
-                "rank": 5
-              }
-            ]
-          },
-          {
-            "name": "Enhancement",
-            "points": 12,
-            "talents": [
-              {
-                "name": "Ancestral Knowledge",
-                "rank": 5
-              },
-              {
-                "name": "Shield Specialization",
-                "rank": 5
-              },
-              {
-                "name": "Thundering Strikes",
-                "rank": 2
-              }
-            ]
-          },
-          {
-            "name": "Restoration",
-            "points": 0,
-            "talents": []
-          }
-        ]
-      },
+      "lastLogin": null,
+      "talents": null,
       "professions": [
         {
-          "name": "Herbalism",
-          "skill": 142,
-          "max": 225
+          "name": "Skinning",
+          "skill": 1,
+          "max": 75
         },
         {
-          "name": "Alchemy",
-          "skill": 130,
-          "max": 225
+          "name": "Leatherworking",
+          "skill": 1,
+          "max": 75
         }
       ],
       "skills": [
@@ -230,92 +126,25 @@
           "max": 75
         }
       ],
-      "equipment": [
-        {
-          "slot": "HEAD",
-          "slotName": "Head",
-          "id": 10504,
-          "name": "Green Lens",
-          "quality": "uncommon",
-          "itemLevel": 49,
-          "enchants": []
-        },
-        {
-          "slot": "CHEST",
-          "slotName": "Chest",
-          "id": 16706,
-          "name": "Wildheart Vest",
-          "quality": "rare",
-          "itemLevel": 58,
-          "enchants": [
-            "Enchanted: +3 All Stats"
-          ]
-        },
-        {
-          "slot": "MAIN_HAND",
-          "slotName": "Main Hand",
-          "id": 19019,
-          "name": "Thunderfury, Blessed Blade of the Windseeker",
-          "quality": "legendary",
-          "itemLevel": 80,
-          "enchants": []
-        }
-      ],
-      "source": "api",
-      "updatedAt": "2026-09-26T11:52:06.060Z",
+      "equipment": [],
+      "source": "manual",
+      "updatedAt": null,
       "errors": []
     },
     {
-      "key": "minecraft",
-      "name": "Minecraft",
-      "displayName": "Mine Craft",
-      "tagline": "Digs holes, builds bombs, stabs you in the back.",
-      "realm": "Normal",
-      "race": "Tauren",
+      "key": "jackpot",
+      "name": "Jackpot",
+      "displayName": "Jack Pot",
+      "tagline": "Digs up ore, builds bombs, steals your gold.",
+      "realm": "",
+      "race": "Orc",
       "class": "Rogue",
-      "level": 27,
-      "faction": "Horde",
-      "guild": "The Crafts",
+      "level": 1,
+      "faction": null,
+      "guild": null,
       "itemLevel": null,
-      "lastLogin": 1790419926060,
-      "talents": {
-        "name": "Enhancement",
-        "trees": [
-          {
-            "name": "Elemental",
-            "points": 5,
-            "talents": [
-              {
-                "name": "Convection",
-                "rank": 5
-              }
-            ]
-          },
-          {
-            "name": "Enhancement",
-            "points": 12,
-            "talents": [
-              {
-                "name": "Ancestral Knowledge",
-                "rank": 5
-              },
-              {
-                "name": "Shield Specialization",
-                "rank": 5
-              },
-              {
-                "name": "Thundering Strikes",
-                "rank": 2
-              }
-            ]
-          },
-          {
-            "name": "Restoration",
-            "points": 0,
-            "talents": []
-          }
-        ]
-      },
+      "lastLogin": null,
+      "talents": null,
       "professions": [
         {
           "name": "Mining",
@@ -370,46 +199,16 @@
           "max": 75
         }
       ],
-      "equipment": [
-        {
-          "slot": "HEAD",
-          "slotName": "Head",
-          "id": 10504,
-          "name": "Green Lens",
-          "quality": "uncommon",
-          "itemLevel": 49,
-          "enchants": []
-        },
-        {
-          "slot": "CHEST",
-          "slotName": "Chest",
-          "id": 16706,
-          "name": "Wildheart Vest",
-          "quality": "rare",
-          "itemLevel": 58,
-          "enchants": [
-            "Enchanted: +3 All Stats"
-          ]
-        },
-        {
-          "slot": "MAIN_HAND",
-          "slotName": "Main Hand",
-          "id": 19019,
-          "name": "Thunderfury, Blessed Blade of the Windseeker",
-          "quality": "legendary",
-          "itemLevel": 80,
-          "enchants": []
-        }
-      ],
-      "source": "api",
-      "updatedAt": "2026-09-26T11:52:06.061Z",
+      "equipment": [],
+      "source": "manual",
+      "updatedAt": null,
       "errors": []
     },
     {
-      "key": "witchcraft",
-      "name": "Witchcraft",
-      "displayName": "Witch Craft",
-      "tagline": "Sews robes, enchants them, sets you on fire.",
+      "key": "hotpot",
+      "name": "Hotpot",
+      "displayName": "Hot Pot",
+      "tagline": "Stitches robes, enchants them, sets you on fire.",
       "realm": "",
       "race": "Orc",
       "class": "Mage",

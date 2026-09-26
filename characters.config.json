@@ -8,10 +8,10 @@
 
   "characters": [
     {
-      "name": "Warrcraft",
+      "name": "Crackpot",
       "realm": "",
-      "displayName": "Warr Craft",
-      "tagline": "Picks flowers, brews potions, calls lightning.",
+      "displayName": "Crack Pot",
+      "tagline": "Picks weeds, brews dodgy potions, calls lightning.",
       "manual": {
         "race": "Orc",
         "class": "Shaman",
@@ -31,10 +31,10 @@
       }
     },
     {
-      "name": "Starcraft",
+      "name": "Crockpot",
       "realm": "",
-      "displayName": "Star Craft",
-      "tagline": "Shoots things, skins things, wears things.",
+      "displayName": "Crock Pot",
+      "tagline": "Shoots it, skins it, stews it, wears it.",
       "manual": {
         "race": "Orc",
         "class": "Hunter",
@@ -54,10 +54,10 @@
       }
     },
     {
-      "name": "Minecraft",
+      "name": "Jackpot",
       "realm": "",
-      "displayName": "Mine Craft",
-      "tagline": "Digs holes, builds bombs, stabs you in the back.",
+      "displayName": "Jack Pot",
+      "tagline": "Digs up ore, builds bombs, steals your gold.",
       "manual": {
         "race": "Orc",
         "class": "Rogue",
@@ -79,10 +79,10 @@
       }
     },
     {
-      "name": "Witchcraft",
+      "name": "Hotpot",
       "realm": "",
-      "displayName": "Witch Craft",
-      "tagline": "Sews robes, enchants them, sets you on fire.",
+      "displayName": "Hot Pot",
+      "tagline": "Stitches robes, enchants them, sets you on fire.",
       "manual": {
         "race": "Orc",
         "class": "Mage",

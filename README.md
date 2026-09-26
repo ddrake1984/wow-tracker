@@ -1,14 +1,14 @@
 # wow-tracker
 
-A World of Warcraft: Forever character progression tracker for **the Craft family**.
+A World of Warcraft: Forever character progression tracker for **the Pot family**, four orcs.
 It pulls from the Blizzard Battle.net API so you don't have to update anything by hand.
 
 | Character | Class | Professions | In-game name |
 |---|---|---|---|
-| **Warr Craft** (Warcraft) | Shaman | Herbalism / Alchemy | `Warrcraft` |
-| **Star Craft** (StarCraft) | Hunter | Skinning / Leatherworking | `Starcraft` |
-| **Mine Craft** (Minecraft) | Rogue | Mining / Engineering | `Minecraft` |
-| **Witch Craft** (witchcraft) | Mage | Tailoring / Enchanting | `Witchcraft` |
+| **Crack Pot** | Orc Shaman | Herbalism / Alchemy | `Crackpot` |
+| **Crock Pot** | Orc Hunter | Skinning / Leatherworking | `Crockpot` |
+| **Jack Pot** | Orc Rogue | Mining / Engineering | `Jackpot` |
+| **Hot Pot** | Orc Mage | Tailoring / Enchanting | `Hotpot` |
 
 It tracks race, class, level, professions and their skill, other skills (weapon skills,
 defense, secondary professions), gear in every slot (with Wowhead tooltips) and talent spec.
@@ -32,7 +32,7 @@ On <https://develop.battle.net/access/clients> → **Create Client**:
 
 | Field | What to enter |
 |---|---|
-| Client Name | Something unique, e.g. `craft-family-tracker` |
+| Client Name | Something unique, e.g. `pot-family-tracker` |
 | Redirect URLs | Leave blank. This app only uses the client-credentials flow, not user login |
 | Service URL | `https://<your-github-username>.github.io/wow-tracker/` (or tick *I do not have a service URL*) |
 | Intended Use | `Personal tracker that shows my own WoW Forever characters' level, gear, talents and professions. Data is fetched every few hours by a GitHub Action and shown on a static GitHub Pages site.` |
