@@ -13,7 +13,7 @@
       "displayName": "Warr Craft",
       "tagline": "Picks flowers, brews potions, calls lightning.",
       "manual": {
-        "race": "Tauren",
+        "race": "Orc",
         "class": "Shaman",
         "level": 1,
         "professions": [
@@ -59,7 +59,7 @@
       "displayName": "Mine Craft",
       "tagline": "Digs holes, builds bombs, stabs you in the back.",
       "manual": {
-        "race": "Undead",
+        "race": "Orc",
         "class": "Rogue",
         "level": 1,
         "professions": [
@@ -84,7 +84,7 @@
       "displayName": "Witch Craft",
       "tagline": "Sews robes, enchants them, sets you on fire.",
       "manual": {
-        "race": "Troll",
+        "race": "Orc",
         "class": "Mage",
         "level": 1,
         "professions": [
