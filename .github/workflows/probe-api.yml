@@ -1,0 +1,30 @@
+name: Probe Blizzard API
+
+# Manual only. Prints which Forever namespaces and realm slugs the API
+# answers to, so characters.config.json can be pointed at the right ones.
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: 'Region: eu, us, kr, tw (blank = config)'
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Probe namespaces and realms
+        env:
+          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+          BLIZZARD_REGION: ${{ inputs.region }}
+        run: node scripts/probe-api.mjs
