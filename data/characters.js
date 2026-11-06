@@ -1,17 +1,17 @@
 window.TRACKER_DATA = {
-  "generatedAt": "2026-09-26T23:03:10.232Z",
-  "region": "eu",
-  "namespace": "profile-classicforever-eu",
+  "generatedAt": "2026-11-06T05:40:40.350Z",
+  "region": "us",
+  "namespace": "profile-forever-us",
   "apiStatus": "ok",
   "wowheadDomain": "classic",
   "characters": [
     {
-      "key": "crackpot",
-      "name": "Crackpot",
-      "displayName": "Crack Pot",
-      "tagline": "Picks weeds, brews dodgy potions, calls lightning.",
-      "realm": "",
-      "race": "Orc",
+      "key": "storm-drake",
+      "name": "Storm Drake",
+      "displayName": "Storm Drake",
+      "tagline": "",
+      "realm": "PvE",
+      "race": "",
       "class": "Shaman",
       "level": 1,
       "faction": null,
@@ -19,253 +19,14 @@ window.TRACKER_DATA = {
       "itemLevel": null,
       "lastLogin": null,
       "talents": null,
-      "professions": [
-        {
-          "name": "Herbalism",
-          "skill": 1,
-          "max": 75
-        },
-        {
-          "name": "Alchemy",
-          "skill": 1,
-          "max": 75
-        }
-      ],
-      "skills": [
-        {
-          "name": "Maces",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "Staves",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "Defense",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "First Aid",
-          "skill": 0,
-          "max": 75
-        },
-        {
-          "name": "Cooking",
-          "skill": 0,
-          "max": 75
-        },
-        {
-          "name": "Fishing",
-          "skill": 0,
-          "max": 75
-        }
-      ],
+      "professions": [],
+      "skills": [],
       "equipment": [],
       "source": "manual",
       "updatedAt": null,
-      "errors": []
-    },
-    {
-      "key": "crockpot",
-      "name": "Crockpot",
-      "displayName": "Crock Pot",
-      "tagline": "Shoots it, skins it, stews it, wears it.",
-      "realm": "",
-      "race": "Orc",
-      "class": "Hunter",
-      "level": 1,
-      "faction": null,
-      "guild": null,
-      "itemLevel": null,
-      "lastLogin": null,
-      "talents": null,
-      "professions": [
-        {
-          "name": "Skinning",
-          "skill": 1,
-          "max": 75
-        },
-        {
-          "name": "Leatherworking",
-          "skill": 1,
-          "max": 75
-        }
-      ],
-      "skills": [
-        {
-          "name": "Bows",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "Axes",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "Defense",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "First Aid",
-          "skill": 0,
-          "max": 75
-        },
-        {
-          "name": "Cooking",
-          "skill": 0,
-          "max": 75
-        },
-        {
-          "name": "Fishing",
-          "skill": 0,
-          "max": 75
-        }
-      ],
-      "equipment": [],
-      "source": "manual",
-      "updatedAt": null,
-      "errors": []
-    },
-    {
-      "key": "jackpot",
-      "name": "Jackpot",
-      "displayName": "Jack Pot",
-      "tagline": "Digs up ore, builds bombs, steals your gold.",
-      "realm": "",
-      "race": "Orc",
-      "class": "Rogue",
-      "level": 1,
-      "faction": null,
-      "guild": null,
-      "itemLevel": null,
-      "lastLogin": null,
-      "talents": null,
-      "professions": [
-        {
-          "name": "Mining",
-          "skill": 1,
-          "max": 75
-        },
-        {
-          "name": "Engineering",
-          "skill": 1,
-          "max": 75
-        }
-      ],
-      "skills": [
-        {
-          "name": "Daggers",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "Swords",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "Defense",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "Lockpicking",
-          "skill": 0,
-          "max": 5
-        },
-        {
-          "name": "Poisons",
-          "skill": 0,
-          "max": 5
-        },
-        {
-          "name": "First Aid",
-          "skill": 0,
-          "max": 75
-        },
-        {
-          "name": "Cooking",
-          "skill": 0,
-          "max": 75
-        },
-        {
-          "name": "Fishing",
-          "skill": 0,
-          "max": 75
-        }
-      ],
-      "equipment": [],
-      "source": "manual",
-      "updatedAt": null,
-      "errors": []
-    },
-    {
-      "key": "hotpot",
-      "name": "Hotpot",
-      "displayName": "Hot Pot",
-      "tagline": "Stitches robes, enchants them, sets you on fire.",
-      "realm": "",
-      "race": "Orc",
-      "class": "Mage",
-      "level": 1,
-      "faction": null,
-      "guild": null,
-      "itemLevel": null,
-      "lastLogin": null,
-      "talents": null,
-      "professions": [
-        {
-          "name": "Tailoring",
-          "skill": 1,
-          "max": 75
-        },
-        {
-          "name": "Enchanting",
-          "skill": 1,
-          "max": 75
-        }
-      ],
-      "skills": [
-        {
-          "name": "Staves",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "Wands",
-          "skill": 0,
-          "max": 5
-        },
-        {
-          "name": "Defense",
-          "skill": 1,
-          "max": 5
-        },
-        {
-          "name": "First Aid",
-          "skill": 0,
-          "max": 75
-        },
-        {
-          "name": "Cooking",
-          "skill": 0,
-          "max": 75
-        },
-        {
-          "name": "Fishing",
-          "skill": 0,
-          "max": 75
-        }
-      ],
-      "equipment": [],
-      "source": "manual",
-      "updatedAt": null,
-      "errors": []
+      "errors": [
+        "profile: HTTP 404 for /profile/wow/character/pve/storm%20drake"
+      ]
     }
   ]
 };
